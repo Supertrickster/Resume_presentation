@@ -12,7 +12,7 @@ header {
     text-align: center;
 }
 
-nav {
+nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -47,6 +47,7 @@ main {
     align-items: center;
     padding: 40px;
 }
+
 
 section {
     background-color: #FFFFFF;
@@ -106,7 +107,11 @@ footer a {
   }
 .profile-pic { margin: 20px auto; width: 150px; height: 150px; border-radius: 50%; overflow: hidden; }
 
-.profile-pic img { width: 100%; height: 100%; object-fit: cover; }
+.profile-pic img { width: 100%; height: 100%; object-fit:cover; }
+
+.highlight{
+  color: #337ab7;
+}
   
   .about-container {
     display: flex;
@@ -119,7 +124,6 @@ footer a {
   }
   
   .about-description {
-    margin-top:0px;
     width: 50vw;
     padding: 20px;
   }
